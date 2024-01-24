@@ -9,4 +9,5 @@ public class DemoTest {
 	{
 		System.out.println("this method is DemoTest==>> smoke test");
 	}
+
 }

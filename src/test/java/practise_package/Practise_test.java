@@ -23,6 +23,6 @@ public class Practise_test {
 	@Test(groups="smoke")
 	public void practiseTest3()
 	{
-		System.out.println("this method is PractiseTest3 master changes==>> Regression Test");
+		System.out.println("this method is PractiseTest3 testlead changes==>> Regression Test");
 	}
 }

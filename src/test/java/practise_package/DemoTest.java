@@ -16,13 +16,8 @@ public class DemoTest {
 		System.out.println("this method is DemoTest1==>>Regression Test");
 	}
 	@Test(groups="regression")
-	public void demoTest2()
+	public void practiseTest3()
 	{
-		System.out.println("this method is DemoTest2==>> Regression Test");
-	}
-	@Test(groups="regression")
-	public void demoTest3()
-	{
-		System.out.println("this method is DemoTest2==>> Regression Test");
+		System.out.println("this method is PractiseTest3 new new again updated as tl==>> Regression Test");
 	}
 }

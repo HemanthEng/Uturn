@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-24T11:23:59 IST" name="Suite" finished-at="2024-01-24T11:24:00 IST" duration-ms="242">
+    <groups>
+      <group name="regression">
+        <method signature="DemoTest.demoTest1()[pri:0, instance:practise_package.DemoTest@75437611]" name="demoTest1" class="practise_package.DemoTest"/>
+        <method signature="Practise_test.practiseTest1()[pri:0, instance:practise_package.Practise_test@235ecd9f]" name="practiseTest1" class="practise_package.Practise_test"/>
+        <method signature="SampleTest.sampleTest1()[pri:0, instance:practise_package.SampleTest@742ff096]" name="sampleTest1" class="practise_package.SampleTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="DemoTest.demoTest()[pri:0, instance:practise_package.DemoTest@75437611]" name="demoTest" class="practise_package.DemoTest"/>
+        <method signature="DemoTest.demoTest1()[pri:0, instance:practise_package.DemoTest@75437611]" name="demoTest1" class="practise_package.DemoTest"/>
+        <method signature="Practise_test.practiseTest()[pri:0, instance:practise_package.Practise_test@235ecd9f]" name="practiseTest" class="practise_package.Practise_test"/>
+        <method signature="Practise_test.practiseTest1()[pri:0, instance:practise_package.Practise_test@235ecd9f]" name="practiseTest1" class="practise_package.Practise_test"/>
+        <method signature="SampleTest.sampleTest()[pri:0, instance:practise_package.SampleTest@742ff096]" name="sampleTest" class="practise_package.SampleTest"/>
+        <method signature="SampleTest.sampleTest1()[pri:0, instance:practise_package.SampleTest@742ff096]" name="sampleTest1" class="practise_package.SampleTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-01-24T11:23:59 IST" name="Test" finished-at="2024-01-24T11:24:00 IST" duration-ms="242">
+      <class name="practise_package.SampleTest">
+        <test-method signature="sampleTest()[pri:0, instance:practise_package.SampleTest@742ff096]" started-at="2024-01-24T11:23:59 IST" name="sampleTest" finished-at="2024-01-24T11:23:59 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="sampleTest1()[pri:0, instance:practise_package.SampleTest@742ff096]" started-at="2024-01-24T11:24:00 IST" name="sampleTest1" finished-at="2024-01-24T11:24:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest1 -->
+      </class> <!-- practise_package.SampleTest -->
+      <class name="practise_package.Practise_test">
+        <test-method signature="practiseTest()[pri:0, instance:practise_package.Practise_test@235ecd9f]" started-at="2024-01-24T11:23:59 IST" name="practiseTest" finished-at="2024-01-24T11:24:00 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiseTest -->
+        <test-method signature="practiseTest1()[pri:0, instance:practise_package.Practise_test@235ecd9f]" started-at="2024-01-24T11:24:00 IST" name="practiseTest1" finished-at="2024-01-24T11:24:00 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiseTest1 -->
+      </class> <!-- practise_package.Practise_test -->
+      <class name="practise_package.DemoTest">
+        <test-method signature="demoTest()[pri:0, instance:practise_package.DemoTest@75437611]" started-at="2024-01-24T11:23:59 IST" name="demoTest" finished-at="2024-01-24T11:24:00 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method signature="demoTest1()[pri:0, instance:practise_package.DemoTest@75437611]" started-at="2024-01-24T11:24:00 IST" name="demoTest1" finished-at="2024-01-24T11:24:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest1 -->
+      </class> <!-- practise_package.DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

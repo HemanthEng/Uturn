@@ -20,4 +20,9 @@ public class Practise_test {
 	{
 		System.out.println("this method is PractiseTest2==>> Regression Test");
 	}
+	@Test(groups="regression")
+	public void practiseTest3()
+	{
+		System.out.println("this method is PractiseTest2==>> Regression Test");
+	}
 }

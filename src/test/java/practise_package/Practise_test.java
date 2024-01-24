@@ -10,24 +10,16 @@ public class Practise_test {
 		System.out.println("this method is PractiseTest==>> smoke test");
 	}
 	
-	@Test(groups="regression")
-	public void practiseTest1()
-	{
-		System.out.println("this method is PractiseTest1==>>Regression Test");
-	}
+	
 	@Test(groups="smoke")
 	public void practiseTest2()
 	{
 		System.out.println("this method is PractiseTest2==>> Regression Test");
 	}
-	@Test(groups="regression")
-	public void practiseTest3()
-	{
-		System.out.println("this method is PractiseTest3==>> Regression Test");
-	}
+
 	@Test(groups="smoke")
 	public void practiseTest4()
 	{
-		System.out.println("this method is PractiseTest4==>> Regression Test");
+		System.out.println("this method is PractiseTest4 changes done as a teng==>> Regression Test");
 	}
 }

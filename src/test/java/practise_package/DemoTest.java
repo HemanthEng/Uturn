@@ -9,5 +9,10 @@ public class DemoTest {
 	{
 		System.out.println("this method is DemoTest==>> smoke test");
 	}
+	@Test(groups="smoke")
+	public void hmsTest()
+	{
+		System.out.println("this method is HMSTest==>> smoke test");
+	}
 
 }

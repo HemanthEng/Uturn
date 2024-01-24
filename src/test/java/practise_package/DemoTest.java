@@ -20,8 +20,13 @@ public class DemoTest {
 	{
 		System.out.println("this method is DemoTest2==>> Regression Test");
 	}
-	@Test(groups="regression")
+	@Test(groups="smoke")
 	public void demoTest3()
+	{
+		System.out.println("this method is DemoTest2==>> Regression Test");
+	}
+	@Test(groups="smoke")
+	public void demoTest4()
 	{
 		System.out.println("this method is DemoTest2==>> Regression Test");
 	}

@@ -4,9 +4,12 @@ import org.testng.annotations.Test;
 
 public class mastercreated {
 	@Test(groups="smoke")
-	public void masterTest()
+	public void masterTest(String br)
 	{
-		System.out.println("this method is masterTest==>> smoke test");
+		String BROWSER = System.getProperty("browser");
+		String Env = System.getProperty("Env");
+		System.out.println(BROWSER);
+		System.out.println(Env);
 	}
 	@Test(groups="smoke")
 	public void masterTest1()

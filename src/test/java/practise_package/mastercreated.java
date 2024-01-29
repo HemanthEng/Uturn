@@ -13,4 +13,9 @@ public class mastercreated {
 	{
 		System.out.println("this method is masterTest1==>> smoke test");
 	}
+	@Test(groups="smoke")
+	public void masterTest2()
+	{
+		System.out.println("this method is masterTest1 to check jenkins ==>> smoke test");
+	}
 }

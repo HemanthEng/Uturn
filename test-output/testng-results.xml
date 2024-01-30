@@ -1,54 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="9" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T11:23:59 IST" name="Suite" finished-at="2024-01-24T11:24:00 IST" duration-ms="242">
+  <suite started-at="2024-01-29T18:16:15 IST" name="Default suite" finished-at="2024-01-29T18:16:15 IST" duration-ms="194">
     <groups>
-      <group name="regression">
-        <method signature="DemoTest.demoTest1()[pri:0, instance:practise_package.DemoTest@75437611]" name="demoTest1" class="practise_package.DemoTest"/>
-        <method signature="Practise_test.practiseTest1()[pri:0, instance:practise_package.Practise_test@235ecd9f]" name="practiseTest1" class="practise_package.Practise_test"/>
-        <method signature="SampleTest.sampleTest1()[pri:0, instance:practise_package.SampleTest@742ff096]" name="sampleTest1" class="practise_package.SampleTest"/>
-      </group> <!-- regression -->
       <group name="smoke">
-        <method signature="DemoTest.demoTest()[pri:0, instance:practise_package.DemoTest@75437611]" name="demoTest" class="practise_package.DemoTest"/>
-        <method signature="DemoTest.demoTest1()[pri:0, instance:practise_package.DemoTest@75437611]" name="demoTest1" class="practise_package.DemoTest"/>
-        <method signature="Practise_test.practiseTest()[pri:0, instance:practise_package.Practise_test@235ecd9f]" name="practiseTest" class="practise_package.Practise_test"/>
-        <method signature="Practise_test.practiseTest1()[pri:0, instance:practise_package.Practise_test@235ecd9f]" name="practiseTest1" class="practise_package.Practise_test"/>
-        <method signature="SampleTest.sampleTest()[pri:0, instance:practise_package.SampleTest@742ff096]" name="sampleTest" class="practise_package.SampleTest"/>
-        <method signature="SampleTest.sampleTest1()[pri:0, instance:practise_package.SampleTest@742ff096]" name="sampleTest1" class="practise_package.SampleTest"/>
+        <method signature="mastercreated.masterTest()[pri:0, instance:practise_package.mastercreated@173ed316]" name="masterTest" class="practise_package.mastercreated"/>
+        <method signature="mastercreated.masterTest1()[pri:0, instance:practise_package.mastercreated@173ed316]" name="masterTest1" class="practise_package.mastercreated"/>
+        <method signature="mastercreated.masterTest2()[pri:0, instance:practise_package.mastercreated@173ed316]" name="masterTest2" class="practise_package.mastercreated"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-01-24T11:23:59 IST" name="Test" finished-at="2024-01-24T11:24:00 IST" duration-ms="242">
-      <class name="practise_package.SampleTest">
-        <test-method signature="sampleTest()[pri:0, instance:practise_package.SampleTest@742ff096]" started-at="2024-01-24T11:23:59 IST" name="sampleTest" finished-at="2024-01-24T11:23:59 IST" duration-ms="33" status="PASS">
+    <test started-at="2024-01-29T18:16:15 IST" name="Default test" finished-at="2024-01-29T18:16:15 IST" duration-ms="194">
+      <class name="practise_package.mastercreated">
+        <test-method signature="masterTest()[pri:0, instance:practise_package.mastercreated@173ed316]" started-at="2024-01-29T18:16:15 IST" name="masterTest" finished-at="2024-01-29T18:16:15 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTest -->
-        <test-method signature="sampleTest1()[pri:0, instance:practise_package.SampleTest@742ff096]" started-at="2024-01-24T11:24:00 IST" name="sampleTest1" finished-at="2024-01-24T11:24:00 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- masterTest -->
+        <test-method signature="masterTest1()[pri:0, instance:practise_package.mastercreated@173ed316]" started-at="2024-01-29T18:16:15 IST" name="masterTest1" finished-at="2024-01-29T18:16:15 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampleTest1 -->
-      </class> <!-- practise_package.SampleTest -->
-      <class name="practise_package.Practise_test">
-        <test-method signature="practiseTest()[pri:0, instance:practise_package.Practise_test@235ecd9f]" started-at="2024-01-24T11:23:59 IST" name="practiseTest" finished-at="2024-01-24T11:24:00 IST" duration-ms="46" status="PASS">
+        </test-method> <!-- masterTest1 -->
+        <test-method signature="masterTest2()[pri:0, instance:practise_package.mastercreated@173ed316]" started-at="2024-01-29T18:16:15 IST" name="masterTest2" finished-at="2024-01-29T18:16:15 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practiseTest -->
-        <test-method signature="practiseTest1()[pri:0, instance:practise_package.Practise_test@235ecd9f]" started-at="2024-01-24T11:24:00 IST" name="practiseTest1" finished-at="2024-01-24T11:24:00 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- practiseTest1 -->
-      </class> <!-- practise_package.Practise_test -->
-      <class name="practise_package.DemoTest">
-        <test-method signature="demoTest()[pri:0, instance:practise_package.DemoTest@75437611]" started-at="2024-01-24T11:23:59 IST" name="demoTest" finished-at="2024-01-24T11:24:00 IST" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoTest -->
-        <test-method signature="demoTest1()[pri:0, instance:practise_package.DemoTest@75437611]" started-at="2024-01-24T11:24:00 IST" name="demoTest1" finished-at="2024-01-24T11:24:00 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoTest1 -->
-      </class> <!-- practise_package.DemoTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- masterTest2 -->
+      </class> <!-- practise_package.mastercreated -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

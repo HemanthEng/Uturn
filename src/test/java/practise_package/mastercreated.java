@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class mastercreated {
 	@Test(groups="smoke")
-	public void masterTest(String br)
+	public void masterTest()
 	{
 		String BROWSER = System.getProperty("browser");
 		String Env = System.getProperty("Env");
